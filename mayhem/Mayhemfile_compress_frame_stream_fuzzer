@@ -1,0 +1,6 @@
+project: savantenvs/lz4
+target: compress_frame_stream_fuzzer
+cmds:
+  - cmd: /mayhem/compress_frame_stream_fuzzer
+    libfuzzer: true
+    timeout: 10

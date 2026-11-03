@@ -1,0 +1,6 @@
+project: savantenvs/lz4
+target: compress_hc_fuzzer
+cmds:
+  - cmd: /mayhem/compress_hc_fuzzer
+    libfuzzer: true
+    timeout: 10

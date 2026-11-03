@@ -1,0 +1,6 @@
+project: savantenvs/lz4
+target: round_trip_frame_uncompressed_fuzzer
+cmds:
+  - cmd: /mayhem/round_trip_frame_uncompressed_fuzzer
+    libfuzzer: true
+    timeout: 10
